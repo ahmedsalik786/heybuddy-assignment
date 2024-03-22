@@ -1,0 +1,89 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0;
+  background-color: white; /* Assuming a light background */
+}
+
+.top {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden; /* Ensures the image doesn't break the border radius */
+}
+
+.img img {
+  width: 65vw; /* Ensures image covers the div correctly */
+  height: 90vh; /* Maintain aspect ratio */
+}
+
+.signup-section {
+  padding: 20px; /* Adds padding inside the signup section for spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Aligns items to the start for a cleaner look */
+}
+
+.signup-section h1 {
+  margin-bottom: 0.5em;
+  color: #333; /* Dark color for text */
+}
+
+button {
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px; /* Adds space between buttons */
+  border-radius: 20px;
+  cursor: pointer;
+  width: 60%; /* Makes buttons expand to the width of the container */
+}
+.cBtn {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.blueText {
+  color: #1da1f2;
+  cursor: pointer;
+}
+
+.text {
+  font-weight: 530;
+}
+
+.buttom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.gIcon {
+  height: 10px;
+}
+
+.modalInputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selectDOB {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.options {
+  padding: 3px;
+  height: 20px;
+  width: 100px;
+}
