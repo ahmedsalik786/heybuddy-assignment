@@ -55,7 +55,12 @@ const SignupPage = () => {
                 Provident, earum?
               </p>
               <div className="selectDOB flex justify-evenly">
-                <select className="options" name="Month" id="">
+                <select
+                  style={{ width: "30%" }}
+                  className="options"
+                  name="Month"
+                  id=""
+                >
                   <option value="0">Month</option>
                   <option value="jan">Jan</option>
                   <option value="fav">fav</option>
@@ -65,7 +70,12 @@ const SignupPage = () => {
                   <option value="june">june</option>
                   <option value="july">july</option>
                 </select>
-                <select className="options" name="Day" id="">
+                <select
+                  style={{ width: "20%" }}
+                  className="options"
+                  name="Day"
+                  id=""
+                >
                   <option value="0">Day</option>
                   <option value="1">1</option>
                   <option value="2">2</option>
@@ -74,7 +84,12 @@ const SignupPage = () => {
                   <option value="5">5</option>
                   <option value="6">6</option>
                 </select>
-                <select className="options" name="year" id="">
+                <select
+                  style={{ width: "25%" }}
+                  className="options"
+                  name="year"
+                  id=""
+                >
                   <option value="jan">Year</option>
                   <option value="2000">2000</option>
                   <option value="2001">2001</option>
